@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Internal JavaScript</title>
+</head>
+
+<body>
+ <h1>Hello Boxer</h1>
+ <button class="btn">Hello Boxer2</button>
+ <button class="btn">Hello Boxer3</button>
+ <button class="btn">Hello Boxer4</button>
+
+
+ <script>
+  document.querySelectorAll('.btn').forEach((item) => { item.addEventListener('click', () => { alert('Boxer is good not bad') }) })
+ </script>
+
+</body>
+</html>

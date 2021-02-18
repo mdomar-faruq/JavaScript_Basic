@@ -1,0 +1,1 @@
+  document.querySelectorAll('.btn').forEach((item) => { item.addEventListener('click', () => { alert('Boxer is good not bad') }) })
